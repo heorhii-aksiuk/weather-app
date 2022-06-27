@@ -1,7 +1,8 @@
 import React, { FC } from 'react'
+import AppBar from './components/AppBar/AppBar'
 
 const App: FC = () => {
-  return <p>test</p>
+  return <AppBar />
 }
 
 export default App
